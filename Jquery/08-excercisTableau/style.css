@@ -1,0 +1,52 @@
+#montableau{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(248, 248, 248);
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+tr{
+    height: 50px;
+    cursor: pointer;
+}
+
+th{
+width: 250px;
+color: white;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 2px solid rgb(53, 53, 201);
+border-radius: 5px;
+}
+
+thead{
+    background-color: black;
+}
+
+.even{
+    background-color: rgb(40, 66, 218);
+}
+.evenHov{
+    background-color: rgb(27, 168, 233);
+}
+
+.odd{
+    background-color: rgb(218, 162, 40);   
+}
+.oddHov{
+    background-color: rgb(218, 96, 40);   
+}
+
+tbody td{
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.hover{
+    background-color: rgb(27, 168, 233);
+}
+
+

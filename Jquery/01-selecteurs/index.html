@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        form {
+            border: 1px solid #ccc;
+            padding: 2rem;
+            width: 960px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <ul id="list1">
+            <li class="a">Acceuil</li>
+            <li class="a">Présentation</li>
+            <li class="b">Projets</li>
+            <li class="b">Contact</li>
+            <li></li>
+        </ul>
+        <p class="a">ceci est un <span>1er paragraphe</span></p>
+        <p id="para2" title="Bonjour tout le monde">Ceci est un 2eme paragraphe</p>
+        <p class="b" title="C'est le jour J">Ceci est un 3eme paragraphe</p>
+        <p id="para4" class="b" title="jour">Ceci est un 4eme paragraphe</p>
+        <p hidden>Je suis caché</p>
+    </div>
+
+    <form>
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" />
+        </p>
+        <p>
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom" />
+        </p>
+        <p>
+            <label for="disabled">Texte :</label>
+            <input type="text" id="disabled" name="disabled" disabled="disabled" />
+        </p>
+        <p>
+            <span>Genre</span>
+            <div>
+                <input type="radio" name="genre" value="h" id="h"><label for="h">Homme</label>
+                <input type="radio" name="genre" value="f" id="f"><label for="f">Femme</label>
+            </div>
+        </p>
+        <p>
+            <span>Choix :</span>
+            <div>
+                <input type="checkbox" name="musique" value="rock" id="rock" checked="checked"><label
+                    for="rock">Rock</label>
+                <input type="checkbox" name="musique" value="pop" id="pop"><label for="pop">Pop</label>
+                <input type="checkbox" name="musique" value="rap" id="rap"><label for="rap">Rap</label>
+            </div>
+        </p>
+        <p>
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays">
+                <option value="be">Belgique</option>
+                <option value="fr">France</option>
+                <option value="ch">Suisse</option>
+                <option value="dz">Algérie</option>
+                <option value="uk">Angleterre</option>
+                <option value="is">Islande</option>
+            </select>
+        </p>
+        <p>
+            <label for="msg">Message : </label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Envoyer">
+        </p>
+
+
+    </form>
+
+
+
+
+    <!-- <script src="lib/jquery-3.4.1.slim.min.js" type="text/javascript"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

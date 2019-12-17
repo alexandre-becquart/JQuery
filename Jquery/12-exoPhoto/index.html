@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fondu</title>
+    <style>
+        .slide img {
+            position: absolute;
+            width: 500px;
+            z-index: 0;
+        }
+
+        .slide .prev {
+            z-index: 1;
+        }
+
+        .slide .current {
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide">
+        <img src="animal.jpg" alt="animal" class="current">
+        <img src="lickme.jpg" alt="lickme">
+        <img src="lily.jpg" alt="lily">
+        <img src="marg.jpg" alt="marg">
+        <img src="trick.jpg" alt="trick">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
